@@ -123,8 +123,8 @@ foundry-evm-traces = { path = "crates/evm/traces" }
 foundry-macros = { path = "crates/macros" }
 foundry-test-utils = { path = "crates/test-utils" }
 
-foundry-block-explorers = { version = "0.1.1", default-features = false }
-foundry-compilers = { git = "https://github.com/foundry-rs/foundry", rev = "87b78361f9ae3aab67bde98c652e6bdf9119f6d0" }
+foundry-block-explorers = { version = "0.2.0", default-features = false }
+foundry-compilers = { version = "0.2.2", default-features = false }
 
 ## revm
 # no default features to avoid c-kzg
